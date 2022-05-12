@@ -1,9 +1,10 @@
 import React from 'react';
+import logoLink from '../../images/logo.svg'
 
 function Header () {
     return (
         <header className="header">
-            <h1 className="header__title">Spot</h1>
+            <div className='header__logo' src={logoLink}/>
             <button className="header__button">Войти</button>
         </header>
     )
